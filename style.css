@@ -1,0 +1,104 @@
+/*font styling and background color*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: gold ;
+    margin: 0;
+    padding: 0;
+}
+
+/*box sizing for page*/
+* {
+    box-sizing: border-box;
+}
+
+/*styling for h1*/
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    width: inherit;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*styling for h2*/
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+/*placement of entire content on page*/
+.wrapper {
+    width: 900px;
+    margin: 40px auto 0 auto;
+}
+
+/*styling for navbar*/
+nav ul {
+    background-color: white;
+    color:  red;
+    width: 500;
+    padding: 20px;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*styling for ul*/
+ul {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    overflow: hidden;
+}
+
+/*styling for li text*/
+li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    float: inherit;
+    width: 60px;
+}
+
+/*color of nav list changes to black when mouse hovers*/
+li a:hover {
+    color: black;
+}
+
+/*sizing for table*/
+table {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/*styling for table header text*/
+th {
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+/*styling for table cell*/
+td {
+    background-color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
+/*styling for footer*/
+footer {
+    font-size: 15px;
+    border: solid 5px white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px;
+}
